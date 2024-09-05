@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Parser {
 
-    //Create a BST tree of Integer type
-    private BST<Integer> mybst = new BST<>();
+    // Create a BST tree of your class type (Note: Replace "Object" with your class type)
+    private BST<Object> mybst = new BST<>();
 
     public Parser(String filename) throws FileNotFoundException {
         process(new File(filename));
